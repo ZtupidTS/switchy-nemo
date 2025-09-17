@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: extension-build
-          path: extension-dist/
+          path: .output/chrome-mv3/
 
   lint:
     runs-on: ubuntu-latest
